@@ -11,6 +11,8 @@ import { HomeComponent } from './home/home.component';
 //Nietos y Bis-Nietos
 import { IniciarComponent } from './login/iniciar/iniciar.component';
 import { ProductosComponent } from './home/productos/productos.component'
+import { CrearProductoComponent } from './home/productos/crear-producto/crear-producto.component';
+import { TablaProductosComponent } from './home/productos/tabla-productos/tabla-productos.component';
 
 
 
@@ -21,7 +23,9 @@ import { ProductosComponent } from './home/productos/productos.component'
     HomeComponent,
 
     IniciarComponent,
-    ProductosComponent
+    ProductosComponent,
+    CrearProductoComponent,
+    TablaProductosComponent
   ],
   imports: [
     BrowserModule,
