@@ -20,16 +20,14 @@
           </tr>
         </thead>
         <tbody>
-          <!-- {productos.map((item) => ( -->
-            <tr>
-              <!-- <td>{item.id}</td> -->
+          <tr *ngFor="let item of arr">
+             <td>{{item.nombre}}</td> 
               <!-- <td>{item.nombre}</td>
               <td>{item.stock}</td> -->
               <!-- <td><DetalleProducto id={item.id}></DetalleProducto></td>
               <td><ActualizarProducto id={item.id} ></ActualizarProducto></td>
               <td><EliminarProducto id={item.id}></EliminarProducto></td> -->
-          </tr>
-          <!-- ))} -->
+          </tr> 
         </tbody>
       </table>
       <div>
