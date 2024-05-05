@@ -1,5 +1,13 @@
 <div>
     CRUD Mantenedor Productos.
-    <app-crear-producto></app-crear-producto>
+
+    <button (click)="myDialog.show()">Crear Producto</button>
+    <dialog #myDialog>
+      <div>
+         <app-crear-producto></app-crear-producto>
+      </div>
+   </dialog>
+
+    <!--  -->
     <app-tabla-productos></app-tabla-productos>
 </div>

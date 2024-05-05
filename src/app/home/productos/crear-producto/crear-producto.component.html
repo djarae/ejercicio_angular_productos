@@ -1,31 +1,11 @@
-<!-- <div>
-   
-      <button> Crear Producto </button>
-       <div>Crear Producto</div>
-       <p>Crear nuevo Prudcot</p>
-
-       <p>Nombre</p>
-       <input
-           type="text"
-           id="txtNProducto"
-           name="hookTxtNProducto"
-           onChange={handleChangeNProducto}
-       />
-
-       <p>Detalle</p>
-       <input
-           type="text"
-           id="txtDProducto"
-           name="hookTxtDProducto"
-           onChange={handleChangeDProducto}
-       />
-
-       <p>Stock</p>
-       <input
-           type="text"
-           id="txtSProducto"
-           name="hookTxtSProducto"
-           onChange={handleChangeSProducto}
-       />
-       <button onClick={CrearProducto}>Crear</button>
-   </div> -->
+<div>
+        <div>Crear Producto</div>
+        <p>Nombre</p>
+        <input type="text" [(ngModel)]="nombre">
+        <p>Detalle</p>
+        <input type="text" [(ngModel)]="detalle" />
+        <p>Stock</p>
+        <input type="text"[(ngModel)]="stock" />
+        <p></p>
+        <button (click)="crearProducto()">OK</button>
+</div>

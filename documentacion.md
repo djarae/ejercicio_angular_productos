@@ -4,3 +4,5 @@
 
 
 # https://codecraft.tv/courses/angular/quickstart/nesting-components-and-inputs/
+
+# FormsModule DEBE SER IMPORTADO TAMBIEN
