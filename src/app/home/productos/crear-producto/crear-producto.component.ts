@@ -15,8 +15,6 @@ export class CrearProductoComponent {
 
   async crearProducto() { 
     let id = 51;
-   
-
     alert("Button is clicked");
     let values
     await axios.post("http://127.0.0.1:8000/insertarProducto?id='"+id+"'&nombre='"+this.nombre+"'&detalle='"+this.detalle+"'&stock='"+this.stock+"'",{withCredentials: true })
